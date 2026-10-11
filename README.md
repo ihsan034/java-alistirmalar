@@ -1,2 +1,3 @@
 # java-alistirmalar
-Java practice exercises from my computer engineering coursework
+
+Getting used to Java by writing small examples.
