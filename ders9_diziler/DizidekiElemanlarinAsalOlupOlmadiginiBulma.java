@@ -41,7 +41,7 @@ public class DizidekiElemanlarinAsalOlupOlmadiginiBulma {
 		for (int sayi : sayilar) {
 			boolean asalMi = sayi >= 2;
 			
-			for(int i = 2; i < sayi; i++) {
+			for(int i = 2; i * i <= sayi; i++) {
 				if (sayi % i == 0) {
 					asalMi = false;
 					break;
